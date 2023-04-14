@@ -4,9 +4,9 @@
     "base_url": "https://carpediem-santa-elena.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/logo_buke.png",
-    "logo": "/images/logo_buke.png",
-    "logo_width": "200",
+    "favicon": "/images/Logo.png",
+    "logo": "/images/Logo.png",
+    "logo_width": "450",
     "logo_height": "200",
     "logo_text": "Logo"
   },
@@ -18,7 +18,7 @@
   },
 
   "nav_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
     "link": "/contact"
   },
