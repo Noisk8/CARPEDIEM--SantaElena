@@ -4,7 +4,7 @@ import Base from "@layouts/Base.astro";
 import Cta from "@layouts/components/Cta.astro";
 import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
-
+import MapSection from "../components/MapSection.astro";
 const homepage = await getEntryBySlug("homepage", "index");
 const { banner, feature, services, workflow, call_to_action } = homepage.data;
 ---
@@ -46,7 +46,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
     </div>
   </section>
 
-  <!-- Features 
+  <!-- Features
   <section class="section bg-theme-light">
     <div class="container">
       <div class="text-center">
@@ -165,8 +165,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
   </script>
   <!-- ./End service -->
   <center >
-    <video width="600"  src="/images/carpe_video.mp4"  autoplay controls></video> 
-    </center> 
+    <video width="600"  src="/images/carpe_video.mp4"  autoplay controls></video>
+    </center>
   <!-- Workflow -->
   <section class="section pb-0">
     <div class="mb-8 text-center">
@@ -183,6 +183,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       height={414}
     />
   </section>
+
+  <MapSection />
 
   <!-- Call to Action -->
   <Cta cta={call_to_action} />
