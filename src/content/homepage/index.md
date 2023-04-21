@@ -4,7 +4,7 @@ banner:
   content: Realiza tus reuniones de trabajo con nosotros <br/> Reserva nuestro espacio para celebrar tus fechas especiles
   image: /images/foto1.jpg
   button:
-    label: "Contact Us"
+    label: "Contactanos"
     link: "/contact"
     enable: true
 
