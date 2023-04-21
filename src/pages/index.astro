@@ -5,6 +5,7 @@ import Cta from "@layouts/components/Cta.astro";
 import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 import MapSection from "../components/MapSection.astro";
+import Whatsapp from "src/components/Whatsapp.astro";
 const homepage = await getEntryBySlug("homepage", "index");
 const { banner, feature, services, workflow, call_to_action } = homepage.data;
 ---
@@ -183,9 +184,11 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       height={414}
     />
   </section>
+<br >
 
   <MapSection />
-
+<Whatsapp />
   <!-- Call to Action -->
   <Cta cta={call_to_action} />
+
 </Base>
