@@ -11,11 +11,12 @@ import { getEntryBySlug } from "astro:content";
 
 const { blog_folder, summary_length } = config.settings;
 
+const itemsPerPage = 6;
 const postIndex = await getEntryBySlug<any, string>(blog_folder, "_index");
 const posts = await getSinglePage(blog_folder);
 const sortedPosts = sortByDate(posts);
-const totalPages = Math.ceil(posts.length / config.settings.pagination);
-const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+const totalPages = Math.ceil(posts.length / itemsPerPage);
+const currentPosts = sortedPosts.slice(0, itemsPerPage);
 ---
 
 <Base title={postIndex?.data.title}>
