@@ -1,16 +1,19 @@
 // section style
 .section {
   @apply pt-[70px] pb-[70px];
+
 }
 
 // container
 .container {
   @apply mx-auto max-w-[1140px] px-4;
+
 }
 
 // form style
 .form-inputs * {
   @apply mb-5 leading-10;
+
 }
 
 // social icon style
@@ -42,6 +45,7 @@
 .content {
   @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h5:text-base prose-h6:mb-6 prose-h6:text-[15px] prose-a:no-underline hover:prose-a:text-primary prose-blockquote:border-primary prose-blockquote:py-1 prose-blockquote:px-4 prose-ol:pl-4 prose-ul:list-none prose-ul:pl-0 prose-hr:my-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
 
+
   ul {
     @apply pl-2;
     li {
@@ -53,6 +57,7 @@
 //feature card
 .feature-card {
   @apply transition-all duration-200 ease-in-out hover:shadow;
+
 }
 
 //swiper pagination
@@ -82,6 +87,7 @@
 //card
 .card {
   @apply mt-10 rounded-[4px] border border-[rgba(0,0,0,.125)] bg-white px-5 px-5 py-12 py-12 shadow md:mt-0;
+
 }
 
 .col-recommended {
@@ -89,6 +95,7 @@
 
   .card {
     @apply border-0 shadow-[0_1rem_3rem_rgba(0,0,0,.175)];
+
   }
 }
 
@@ -103,6 +110,7 @@
   &-body {
     a {
       @apply text-primary;
+
     }
   }
 }
@@ -111,6 +119,7 @@
 .contact-list {
   a {
     @apply font-semibold text-dark;
+
   }
 }
 
@@ -133,6 +142,7 @@
   @apply prose-thead:border-border prose-thead:bg-theme-light prose-th:py-4 prose-th:px-4 prose-th:text-dark;
   @apply prose-tr:border-border;
   @apply prose-td:px-3 prose-td:py-4;
+
 }
 
 //swiper-pagination

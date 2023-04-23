@@ -19,29 +19,15 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
           <h1 class="font-primary font-bold">{banner?.title}</h1>
           {
             banner?.content && (
-              <p class="mt-4" set:html={markdownify(banner.content)} />
+              <p class="mt-4 text-2xl" set:html={markdownify(banner.content)} />
             )
           }
 
-          {
-            banner?.button?.enable && (
-              <a class="btn btn-primary mt-4" href={banner.button.link}>
-                {banner.button.label}
-              </a>
-            )
-          }
+<br>
+ <center >
+  <video width="600"  src="/images/carpe_video.mp4"  autoplay controls></video>
+  </center>
 
-          {
-            banner?.image && (
-              <Image
-                class="mx-auto mt-12"
-                src={banner?.image}
-                width={750}
-                height={390}
-                alt="banner image"
-              />
-            )
-          }
         </div>
       </div>
     </div>
@@ -165,10 +151,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
     });
   </script>
   <!-- ./End service -->
-  <center >
-    <video width="600"  src="/images/carpe_video.mp4"  autoplay controls></video>
-    </center>
-  <!-- Workflow -->
+
+  <!-- Workflow
   <section class="section pb-0">
     <div class="mb-8 text-center">
       <h2
@@ -183,7 +167,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       width={1920}
       height={414}
     />
-  </section>
+  </section> -->
 <br >
 
   <MapSection />

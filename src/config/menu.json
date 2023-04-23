@@ -5,17 +5,14 @@
       "url": "/"
     },
     {
-      "name": "Productos",
+      "name": "Productos ☕️",
       "url": "/blog"
     },
     {
       "name": "Servicios",
       "url": "/pricing"
     },
-    {
-      "name": "Contactanos",
-      "url": "/contact"
-    },
+
     {
       "name": "FAQ",
       "url": "/faq"
@@ -27,10 +24,10 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Servicios",
       "menu": [
         {
-          "text": "Pricing",
+          "text": "Ver Paquetes",
           "url": "/pricing"
         },
         {
@@ -40,37 +37,20 @@
       ]
     },
     {
-      "name": "Product",
+      "name": "Productos",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Ver Productos",
+          "url": "/blog"
         }
+
       ]
     },
     {
-      "name": "Support",
+      "name": "",
       "menu": [
-        {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "/privacy-policy"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "/terms-conditions"
-        }
+
+
       ]
     }
   ]

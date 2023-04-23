@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Si no es ahora ¿cuándo? ☕️
-  content: Realiza tus reuniones de trabajo con nosotros <br/> Reserva nuestro espacio para celebrar tus fechas especiles
+  title: Bienvendid@ a Carpe Diem
+  content: Si no es ahora ¿cuándo? ☕️ <br/> Te invitamos a ponerte Comod@ en este ameno y descoplicado espacio <br/> que hemos recreado para ti y los tuyos.
   image: /images/foto1.jpg
   button:
     label: "Contactanos"
@@ -10,7 +10,19 @@ banner:
 
 # services
 services:
-  - title: "Momentos inolvidables en Tu lugar favorito"
+  - title: "¿Que te quieres tomar? ☕️"
+    content: "Disponte a disfrutar de una buena músicaque tú mismo puedes elegir, además de saborear deliciosas preparaciones que te ofrecemos y que con seguridad te van a encantar"
+    images:
+      - "/images/carpe1.jpeg"
+      - "/images/carpe2.jpeg"
+      - "/images/carpe3.jpeg"
+      - "/images/carpe4.jpeg"
+    button:
+      enable: true
+      label: Ver Prodctos
+      link: /blog
+
+  - title: "Separa el espacio para tus fechas especiales"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/carpe1.jpeg"
@@ -20,9 +32,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
-
- 
+      link: /contact 
   
 
 
@@ -58,7 +68,7 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ven a vivir una experiencia maginifica
+  title:  Separa el espacio para tus fechas especiales
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
   image: '/images/esta.jpg'
   button:
