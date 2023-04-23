@@ -23,7 +23,7 @@ services:
       link: /blog
 
   - title: "Separa el espacio para tus fechas especiales"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    content: "separa tus fechas especiales "
     images:
       - "/images/carpe1.jpeg"
       - "/images/carpe2.jpeg"
@@ -41,29 +41,29 @@ feature:
   title: Something You Need To Know
   features:
   - name: "Clean Code"
-    icon: "/images/code.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
   - name: "Object Oriented"
-    icon: "/images/oop.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
   - name: "24h Service"
-    icon: "/images/user-clock.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
   - name: "Value for Money"
-    icon: "/images/love.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
   - name: "Faster Response"
-    icon: "/images/speedometer.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
   - name: "Cloud Support"
-    icon: "/images/cloud.svg"
+    icon: "/images/carpe4.jpeg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 
 # workflow
 workflow: 
   title: "Sienteté cómo en casa"
-  image: "/images/para.jpg"
+  image: "/images/carpe4.jpeg"
   description: ""
 
 # call_to_action
