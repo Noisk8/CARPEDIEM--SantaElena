@@ -3,90 +3,53 @@ title: Servicios
 description: "meta description"
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+- title: Plan Familiar
+  subtitle: Reserva para cumpleaños 
+  price: 500
+  type: Día
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Servicio de Catering
+    - Todo el espacio reservado
+    - Personaliza el espacio a tu gusto
+    - Maxímo 20 personas
   button:
-    label: Get started for free
-    link: "/contact"
+    label: Separa ya!
+    link: "https://wa.me/573012046448?text=Me%20gustaría%20reservar%20el%20plan%20familiar"
     
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+- title: Plan Romanticon
+  subtitle: Ideal para citas romanticas
+  price: 70
+  type: Hora
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Jarra de sangria 
+    - 2 Mesas 
+    - Catering personalizados
   button:
-    label: Get started for free
-    link: "/contact"
+    label: Reserva Ya!
+    link: "https://wa.me/573012046448?text=Me%20gustaría%20reservar%20el%20plan%20Romanticon"
 
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+- title: Co-Working
+  subtitle: Ideal Para tarbajar en grupo
+  price: 50
+  type: Hora
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Mesas custom
+    - 2 cafe  por persona
+    - Maímo 20 personas
   button:
-    label: Get started for free
-    link: "/contact"
-
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started for free
-    link: "/contact"
-
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started for free
-    link: "/contact"
-    
+    label: Reserva Ya!
+    link: "https://wa.me/573012046448?text=Me%20gustaría%20reservar%20el%20plan%20Co-Working"
 
 
 
-
-
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started
-    link: "/contact"
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.png'
+  title: Necesitas personalizar tus planes?
+  content: No dudes en contactarnos para ampliar y personalizar tu servicio.
+  image: '/images/rest.jpg'
   button:
     enable: true
     label: "Contact Us"
-    link: "/contact"
+    link: "https://wa.me/573012046448?text=Me%20gustaría%20personalizar%20el%20un%20servicio"
     
 ---

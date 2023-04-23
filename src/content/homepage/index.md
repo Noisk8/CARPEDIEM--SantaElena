@@ -13,10 +13,10 @@ services:
   - title: "¿Que te quieres tomar? ☕️"
     content: "Disponte a disfrutar de una buena músicaque tú mismo puedes elegir, además de saborear deliciosas preparaciones que te ofrecemos y que con seguridad te van a encantar"
     images:
-      - "/images/carpe1.jpeg"
-      - "/images/carpe2.jpeg"
-      - "/images/carpe3.jpeg"
-      - "/images/carpe4.jpeg"
+      - "/images/aromatica_1.jpeg"
+      - "/images/a_r.jpg"
+      - "/images/producto1.jpg"
+      - "/images/cafetera-francesa.jpg"
     button:
       enable: true
       label: Ver Prodctos
