@@ -6,6 +6,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 import MapSection from "../components/MapSection.astro";
 import Whatsapp from "src/components/Whatsapp.astro";
+import Lista from "src/components/Lista.astro";
 const homepage = await getEntryBySlug("homepage", "index");
 const { banner, feature, services, workflow, call_to_action } = homepage.data;
 ---

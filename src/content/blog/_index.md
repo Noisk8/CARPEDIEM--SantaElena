@@ -1,6 +1,6 @@
 ---
 title: "Productos"
-description: "this is meta description"
+description: "Estos son los productos de CarpeDiem"
 ---
 
 
