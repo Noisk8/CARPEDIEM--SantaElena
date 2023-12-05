@@ -35,7 +35,7 @@ plans:
   features:
     - Mesas custom
     - 2 cafe  por persona
-    - Maímo 20 personas
+    - Maxímo 20 personas
   button:
     label: Reserva Ya!
     link: "https://wa.me/573012046448?text=Me%20gustaría%20reservar%20el%20plan%20Co-Working"
