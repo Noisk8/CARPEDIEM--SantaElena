@@ -31,7 +31,7 @@ services:
       - "/images/carpe4.jpeg"
     button:
       enable: true
-      label: Check it out
+      label: Contatenos
       link: /contact 
   
 
@@ -73,6 +73,6 @@ call_to_action:
   image: '/images/esta.jpg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Contactenos"
     link: "/contact"
 ---

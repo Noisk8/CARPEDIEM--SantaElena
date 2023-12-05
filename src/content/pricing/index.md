@@ -49,7 +49,7 @@ call_to_action:
   image: '/images/rest.jpg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Contactenos"
     link: "https://wa.me/573012046448?text=Me%20gustaría%20personalizar%20el%20un%20servicio"
     
 ---

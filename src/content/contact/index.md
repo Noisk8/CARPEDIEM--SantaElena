@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
+title: "Contactanos"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Contactate con nosotros
+  description: Dejanos saber que opinas sobre , este espacio y que te gustaría realizar en el.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "phone: +57 316 324 86 42"
+    - "Mail: [crispiniana20@hotmail.com ](mailto:juansk8jaramillo@gmail.com )"
+    - " Km 1.8 Vereda El plan Santa Elena-Medellín"
 ---
 
