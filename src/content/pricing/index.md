@@ -50,6 +50,6 @@ call_to_action:
   button:
     enable: true
     label: "Contactenos"
-    link: "https://wa.me/573012046448?text=Me%20gustaría%20personalizar%20el%20un%20servicio"
+    link: "https://wa.me/573016175628?text=Me%20gustaría%20personalizar%20el%20un%20servicio"
     
 ---
