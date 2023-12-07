@@ -130,7 +130,7 @@ const pricing_page = defineCollection({
     plans: z.array(z.object({
       title: z.string(),
       subtitle: z.string(),
-      price: z.number(),
+      price: z.string(),
       recommended: z.boolean().optional(),
       type: z.string(),
       features: z.array(z.string()).optional(),
@@ -173,3 +173,7 @@ export const collections = {
   faq: faq_page,
   pricing: pricing_page
 };
+
+
+const priceString = "1,234.56"; // Supongamos que este es el valor que obtienes de price
+const priceNumber = parseFloat(priceString.replace(" ", "")); // Elimina las comas y convierte el resultado en un número

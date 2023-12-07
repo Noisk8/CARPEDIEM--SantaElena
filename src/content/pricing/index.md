@@ -5,7 +5,7 @@ draft: false
 plans:
 - title: Plan Familiar
   subtitle: Reserva para cumpleaños 
-  price: 500
+  price: 2'000.000 co
   type: Día
   features:
     - Servicio de Catering
@@ -14,15 +14,15 @@ plans:
     - Maxímo 20 personas
   button:
     label: Separa ya!
-    link: "https://wa.me/573012046448?text=Me%20gustaría%20reservar%20el%20plan%20familiar"
+    link: "https://wa.me/573016175628?text=Me%20gustaría%20reservar%20el%20plan%20familiar"
     
 - title: Plan Romanticon
   subtitle: Ideal para citas romanticas
-  price: 70
+  price: 90.000 co
   type: Hora
   features:
     - Jarra de sangria 
-    - 2 Mesas 
+    - 2 personas
     - Catering personalizados
   button:
     label: Reserva Ya!
@@ -30,7 +30,7 @@ plans:
 
 - title: Co-Working
   subtitle: Ideal Para tarbajar en grupo
-  price: 50
+  price: 200.000 co
   type: Hora
   features:
     - Mesas custom
